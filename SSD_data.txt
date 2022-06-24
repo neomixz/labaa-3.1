@@ -1,0 +1,6 @@
+<!doc type html>< html it emscope="" itemty pe="ht tp:///s chema.org/Sear chRe sultsPage" lang="uk">
+<head><meta charset="UTF-8">< meta conte nt= "origin" name="referrer">< meta con tent="/im
+ag es/ brandin g/g oo gleg/1 x/goog leg_st andard_color_128dp.png" itempro p="image"><t itle>- 
+Пошу к Go ogl e</ti tl e>< script n once ="wiMMKCaJ GJrMEcc bxqYWdg">(function (){
+varv a r f=this ||self;var h, =[]; function l(a){for(var b;a&&(!a.get Attribute||! (b=a. ge tAttribute("eid ")));)a=a.
+pare ntNode; return b||h}function m(a){for( var b= null;a&&(!a.getAtt r ibute||! ( b=a.getAttribute("leid") ));)a=a.
