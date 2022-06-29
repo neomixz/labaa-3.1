@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\programing\\labaa 2.3(1)ReWrite(1)\\labaa 2.3(1)ReWrite(1).csproj",
-      "projectName": "labaa 2.3(1)ReWrite(1)",
-      "projectPath": "D:\\programing\\labaa 2.3(1)ReWrite(1)\\labaa 2.3(1)ReWrite(1).csproj",
+      "projectUniqueName": "D:\\programing\\labaa 2.3(1)\\labaa 2.3(1).csproj",
+      "projectName": "labaa 2.3(1)",
+      "projectPath": "D:\\programing\\labaa 2.3(1)\\labaa 2.3(1).csproj",
       "packagesPath": "C:\\Users\\Albert\\.nuget\\packages\\",
-      "outputPath": "D:\\programing\\labaa 2.3(1)ReWrite(1)\\obj\\",
+      "outputPath": "D:\\programing\\labaa 2.3(1)\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Albert\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,18 +1,26 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 
-namespace labaa_2._3_1_ReWrite_1_
+
+namespace labaa_2._3_1_
 {
     class SSD
     {
-        public string Name { get; set; }
-        public string GB { get; set; }
+        string Name = "Crucial BX500 2 TB";
+        int Memory_GB = 2000;
+        public void SSD_Size()
+        {
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine($"SSD ({Name}) size : {Memory_GB}GB");
+            Console.ResetColor();
+        }
 
-        public string Virus_Cheking()
+        public void Virus_Cheking()
         {
             int n = 0;
-            string path = @"D:\programing\labaa 2.3(1)ReWrite(1)\SSD_data.txt";
+            string path = @"D:\programing\labaa 2.3(1)\SSD_data.txt";
             var data = File.ReadAllText(path).Split(' ', StringSplitOptions.RemoveEmptyEntries).ToList();
             for (int i = 0; i < data.Count; i++)
             {
@@ -26,28 +34,9 @@ namespace labaa_2._3_1_ReWrite_1_
             }
             //#VIRUS
             File.WriteAllText(path, string.Join(" ", data));
-
-            return $"There's found and deleted ({n}) viruses!!!";
-            
-        }
-
-        public override bool Equals(object obj)
-        {
-            if (obj == null)
-                return false;
-            SSD ssd = obj as SSD;
-            if (ssd == null)
-                return false;
-
-            return ssd.GB == this.GB;
-        }
-        public override int GetHashCode()
-        {
-            return Name.GetHashCode();
-        }
-        public override string ToString()
-        {
-            return GB.ToString();
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine($"There's found and deleted ({n}) viruses!!!");
+            Console.ResetColor();
         }
     }
 }
